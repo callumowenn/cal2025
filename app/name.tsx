@@ -4,13 +4,13 @@ export function NameTransition() {
   return (
     <ViewTransition>
       <h1 className="font-medium pt-12">
-        <span className="sr-only">Lee Robinson</span>
+        <span className="sr-only">Callum Owen</span>
         <span
           aria-hidden="true"
           className="block overflow-hidden group relative"
         >
           <span className="inline-block transition-all duration-300 ease-in-out group-hover:-translate-y-full whitespace-nowrap">
-            {'Lee Robinson'.split('').map((letter, index) => (
+            {'Callum Owen'.split('').map((letter, index) => (
               <span
                 key={index}
                 className="inline-block"
@@ -20,14 +20,14 @@ export function NameTransition() {
               </span>
             ))}
           </span>
-          <span className="inline-block absolute left-0 top-0 transition-all duration-300 ease-in-out translate-y-full group-hover:translate-y-0">
-            {'leerob'.split('').map((letter, index) => (
+          <span className="inline-block absolute left-0 top-0 transition-all duration-300 ease-in-out translate-y-full group-hover:translate-y-0 text-gray-500">
+            {' '.split('').map((letter, index) => (
               <span
                 key={index}
-                className="inline-block"
+                className="inline-block text-xl"
                 style={{ transitionDelay: `${index * 25}ms` }}
               >
-                {letter}
+                {letter}😛
               </span>
             ))}
           </span>

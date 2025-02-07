@@ -1,9 +1,13 @@
-import { AnimatedName } from '@/app/n/animated-name.tsx';
+import Image from 'next/image';
+import wbd from '@/assets/wbd.png';
+import bbc from '@/assets/bbc.png';
+import newc from '@/assets/newc.svg';
+import { AnimatedHome } from '@/animated-home.tsx';
 
 export const metadata = {
   title: 'Work',
   alternates: {
-    canonical: '/n/work',
+    canonical: '/work',
   },
 };
 
@@ -13,34 +17,36 @@ export function Small({ children }) {
   );
 }
 
-# Work
+<AnimatedHome />
 
-<AnimatedName />
+# Work 👨‍💻
 
-On a mission to build products developers [love](/n/devtools), and along the way, teach the next generation of developers. Here's a summary of my work so far.
+As a technologist at the intersection of software and broadcast, I am experienced and confident researching, implementing, and maintaining modern infrastructure across data centres, broadcast facilities, and codebases.
 
-## Vercel
+I am passionate about harnessing innovation to bring powerful and positive experiences to people, fascinated by the complex relationship between media, technology, and society.
 
-<Small>VP of Product</Small>
+With an empathetic approach to Human-Computer Interaction, my research is primarily concerned with how multidisciplinary wisdom may inform the design of responsible technology, and how communities may integrate such systems into civic life to empower digital social innovation.
 
-I joined [Vercel](https://vercel.com/home) early to grow [Next.js](https://nextjs.org/) and our developer community. I built our Developer Relations team to teach the community about our products.
+## <Image id='newc' alt='Newcastle University logo' src={newc} height="32" className='mb-2 mt-4'/> Newcastle University
 
-We spoke at conferences, wrote blog posts, and created videos. We built open-source examples and contributed back to the [product](/n/devtools). We [translated customer pain](https://twitter.com/kelseyhightower/status/1105985400110112768) back into the product roadmap. I [shipped](https://x.com/leeerob/status/1841226051554308229) a lot of code.
+<Small>MSc Human-Computer Interaction Student, 2025 - 2026</Small>
 
-Since joining Vercel in 2020, Next.js has grown 1000%, now with 1 million active developers. Next.js is one of the top software projects on GitHub and used to build [wonderful products](https://nextjs.org/showcase).
+Manifesting good vibes n great things ygm x
 
-## Hy-Vee
+## <Image id='wbd' alt='Warner Bros. Discovery logo' src={wbd} height="32" className='mb-2 mt-4'/> Warner Bros. Discovery
 
-<Small>Senior Software Engineer, 2018 - 2020</Small>
+<Small>Contribution Engineer, 2022 - 2025</Small>
 
-Hy-Vee, an almost 100-year-old grocery chain in the United States, wanted to build a new version of their digital storefront. I joined a team of [product engineers](/n/product-engineers) working across web and mobile to rebuild their legacy .NET application (~500k MAU) with React and React Native.
+Responsible for the design, installation, and integration of reliable broadcast network infrastructure to deliver an expanding portfolio of sports rights for TNT Sports and Eurosport across EMEA.
 
-On the frontend, I led our move from a custom webpack and React configuration to Next.js and the latest React patterns. In the process, I shared my learnings online, helping educate members of the React and Next.js community by creating courses.
+Specialised in software-based Internet contribution methods; provided specialist technical support for major events such as the [Paris 2024 Olympics](https://press.wbd.com/us/media-release/max/eurosport/record-olympics-streaming-and-tv-audiences-warner-bros-discovery-max-boosts), UEFA Champions League, and Premier League football.
 
-Throughout my two years, I was able to work on some hard problems: decoupling a decade old monolith into microservices, working with a federated GraphQL API, learning and occasionally managing a Kubernetes cluster, building and implementing a design system, incrementally migrating individual components and routes to a new framework and infrastructure, and more.
+## <Image id='bbc' alt='BBC logo' src={bbc} height="16" className='mb-2 mt-4'/> BBC
 
-## Workiva
+<Small>Engineering Degree Apprentice, 2019 - 2022</Small>
 
-<Small>Software Engineer, 2015 - 2018</Small>
+Working across various Design & Engineering teams and external partners, I gained vast technical experience with the hardware, software, and network infrastructure underpinning world-renowned media organisations.
 
-Workiva ($WK) is a cloud platform for data reporting and compliance. During my time at Workiva, I gained my first production experience using React. I worked on tooling to help predict and alert and regressions in our SaaS platform, building a product similar to open-source tools like Sentry.
+Alongside placements, I achieved a First Class (Hons) BEng in Broadcast and Communications Engineering, integrated in the Level 6 Broadcast and Media Systems Engineer apprenticeship.
+
+In my final placement, I wrote my dissertation: researching and experimenting with Personal Data Stores and ethical design to support the development of applications that uphold “[Public Service Internet](https://www.bbc.co.uk/rd/projects/public-service-internet)” themes, incorporated within this research area of BBC R&D.
